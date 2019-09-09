@@ -1,0 +1,154 @@
+@media screen and (max-width: 750px){
+	h1{
+		font-size: 41px;
+		padding-left: 5%;
+		padding-top: 34%;
+		line-height: 0px;
+	}
+	#amazing{
+		font-size: 13px;
+		padding-left: 11%;
+		padding-top: 3%;
+	}
+	button{
+		position: relative;
+		margin-top: 10px;
+		font-size: 14px;
+		left: 15%;
+	}
+	#signinbutton{
+		margin-top: 22px;
+		left: 33%;
+	}
+	form{
+		margin-left: 10%;
+	}
+	input, .add-on,select{
+		margin-top: 4px;
+	}
+	#sex{
+		width: 30%;
+	}
+	#bdate{
+		width: 21%;
+	}
+	#signupafterform{
+		margin-left: -15%;
+	}
+	#bdate, #sex{
+		width: 48px;
+	}
+	#signinafterform{
+		margin-left: -15.6%;
+	}
+	.showmaindiv{
+		position: absolute;
+		left: 6%;
+		top: 31%;
+	}
+}
+@media screen and (min-width: 751px) and (max-width: 1549px){
+	h1{
+		font-size: 80px;
+		padding-left: 30%;
+		padding-top: 14%;
+		line-height: 0px;
+	}
+	#amazing{
+		font-size: 25px;
+		padding-left: 34%;
+		padding-top: 3%;
+	}
+	button{
+		position: relative;
+		margin-top: 10px;
+		font-size: 16px;
+		left: 40%;
+	}
+	#signinbutton{
+		margin-top: 22px;
+		left: 45%;
+	}
+	form{
+		margin-left: 30.4%;
+		margin-top: 2%;
+	}
+	input, .add-on,select{
+		margin-top: 4px;
+	}
+	#signupafterform{
+		margin-left: -40%;
+	}
+	#bdate, #sex{
+		width: 8%;
+	}
+	#signinafterform{
+		margin-left: -40%;
+	}
+	.showmaindiv{
+		position: absolute;
+		left: 27%;
+		top: 40%;
+	}
+}
+@media screen and (min-width: 1550px){
+	h1{
+		font-size: 180px;
+		padding-left: 25%;
+		padding-top: 14%;
+		line-height: 0px;
+	}
+	#amazing{
+		font-size: 55px;
+		padding-left: 29%;
+		padding-top: 5%;
+	}
+	button{
+		position: relative;
+		margin-top: 2%;
+		font-size: 16px;
+		left: 46%;
+	}
+	#signinbutton{
+		margin-top: 22px;
+		left: 50%;
+	}
+	form{
+		margin-left: 29%;
+		margin-top: 2%;
+	}
+	input, .add-on,select{
+		margin-top: 4px;
+	}
+	#signupafterform{
+		margin-left: -46%;
+	}
+	#bdate, #sex{
+		width: 5%;
+	}
+	#signinafterform{
+		margin-left: -46%;
+	}
+	.showmaindiv{
+		position: absolute;
+		left: 28%;
+		top: 42.6%;
+	}
+}
+/* This Is For The Whole Page */
+button{
+	background-color: tomato;
+	color: white;
+	border-style: none;
+	border-radius: 6px;
+	padding: 12px 18px;
+}
+button:hover{
+	color: lightblue;
+}
+.add-on{
+	color: black;
+}
+/*.maindiv,*/ .signupdiv, .signindiv, .showmaindiv{
+	display: none;
+}
